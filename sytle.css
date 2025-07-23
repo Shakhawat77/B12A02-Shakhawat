@@ -9,3 +9,109 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+}
+.content-col{
+    color: rgba(0, 0, 0, 0.5);
+}
+.head-col{
+    color: rgba(233, 90, 8, 1);
+}
+/* header related style */
+.cart{
+    width: 1.5rem;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+}
+.nav-item, .cart-item{
+    list-style: none;
+    margin-right: 30px;
+   
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+/* nav item colour */
+.nav-col{
+    color: rgba(137, 135, 161, 1);
+}
+.home-col{
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+}
+.cart-col{
+    color: rgba(0, 0, 0, 1);
+}
+
+/* banner styel */
+.banner{
+    margin: 120px 150px;
+
+    
+}
+.banner-title{
+    font-weight: 700;
+    
+    font-size: 4rem;
+}
+.banner-col{
+    color: rgba(0, 0, 0, 1);
+}
+.banner-content{
+    margin-top: 162px;
+}
+.banner-img{
+    margin-top: 80px;
+    margin-right: 40px;
+}
+/* our plants */
+.plants-discripton{
+    font-size: 1.3rem;
+    margin: 16px 126px;
+   justify-content: center;
+}
+.plants{
+    font-size: 3.1rem;
+    justify-items: center;
+    margin-bottom: 0;
+}
+.our-plants{
+    justify-items: center;
+    margin: 30px 150px;
+}
+.btn{
+   background-color: rgba(233, 90, 8, 1);
+   color: white;
+   padding: 19px 80px;
+   font-size: 1rem;
+   font-weight: 600;    
+
+}
+.price{
+    color: rgba(17, 17, 17, 1);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.lily{
+    font-size: 1.3rem;
+    color: rgba(17, 17, 17, 1);
+    font-weight: 500;
+}
+.container-discription{
+   justify-items: center;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+    }
+    
+}
