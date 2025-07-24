@@ -1,117 +1,312 @@
 /* use noto serif font  */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-.noto-serif-font> {
+.noto-serif-font > {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 /* shared style */
-.display-flex{
-    display: flex;
+.display-flex {
+  display: flex;
 }
-.content-col{
-    color: rgba(0, 0, 0, 0.5);
+.content-col {
+  color: rgba(0, 0, 0, 0.5);
 }
-.head-col{
-    color: rgba(233, 90, 8, 1);
+.head-col {
+  color: rgba(233, 90, 8, 1);
 }
 /* header related style */
-.cart{
-    width: 1.5rem;
+.cart {
+  width: 1.5rem;
 }
-.navbar{
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px 150px;
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 150px;
 }
-.nav-item, .cart-item{
-    list-style: none;
-    margin-right: 30px;
-   
+.nav-item,
+.cart-item {
+  list-style: none;
+  margin-right: 30px;
 }
-.nav-link{
-    text-decoration: none;
-    font-size: 1rem;
-    
+.nav-link {
+  text-decoration: none;
+  font-size: 1rem;
 }
 /* nav item colour */
-.nav-col{
-    color: rgba(137, 135, 161, 1);
+.nav-col {
+  color: rgba(137, 135, 161, 1);
 }
-.home-col{
-    color: rgba(37, 36, 50, 1);
-    font-weight: bold;
+.home-col {
+  color: rgba(37, 36, 50, 1);
+  font-weight: bold;
 }
-.cart-col{
-    color: rgba(0, 0, 0, 1);
+.cart-col {
+  color: rgba(0, 0, 0, 1);
 }
 
 /* banner styel */
-.banner{
-    margin: 120px 150px;
+.banner {
+  margin: 120px 150px;
+}
+.banner-title {
+  font-weight: 700;
 
-    
+  font-size: 4rem;
 }
-.banner-title{
-    font-weight: 700;
-    
-    font-size: 4rem;
+.banner-col {
+  color: rgba(0, 0, 0, 1);
 }
-.banner-col{
-    color: rgba(0, 0, 0, 1);
+.banner-content {
+  margin-top: 162px;
 }
-.banner-content{
-    margin-top: 162px;
-}
-.banner-img{
-    margin-top: 80px;
-    margin-right: 40px;
+.banner-img {
+  margin-top: 80px;
+  margin-right: 40px;
 }
 /* our plants */
-.plants-discripton{
-    font-size: 1.3rem;
-    margin: 16px 126px;
-   justify-content: center;
+.plants-discripton {
+  font-size: 1.3rem;
 }
-.plants{
-    font-size: 3.1rem;
-    justify-items: center;
-    margin-bottom: 0;
+.plants {
+  font-size: 3.1rem;
+  justify-items: center;
 }
-.our-plants{
-    justify-items: center;
-    margin: 30px 150px;
+.our-plants {
+  justify-items: center;
+  max-width: 860px;
+  margin: 0px auto;
+  text-align: center;
 }
-.btn{
-   background-color: rgba(233, 90, 8, 1);
-   color: white;
-   padding: 19px 80px;
+.btn {
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  padding: 19px 80px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+}
+.price {
+  color: rgba(17, 17, 17, 1);
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+.lily {
+  font-size: 1.3rem;
+  color: rgba(17, 17, 17, 1);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.container {
+  justify-content: center;
+  text-align: center;
+}
+.all-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* flower and plant section */
+.flower-plants{
+  gap:30px;
+  margin-top: 200px;
+  justify-content: center;
+  position: relative;
+
+
+}
+.flower-img{
+  height: 500px;
+  width: 517px;
+}
+.flower-content{
+  height: 540px;
+  width: 521px;
+  margin-left: 50px;
+}
+.flower-head{
+  font-weight: bold;
+  font-size: 3.1rem;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+.flower-des{
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.flower-singel-des{
+  margin-bottom: 20px;
+}
+
+.trusted{
+  height: 280px;
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-70%, -140%);
+}
+
+/* latest deals section */
+.latest{
+ position: relative;
+}
+.latest-head{
+  font-size: 3.1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.latest-des{
+  font-size: 1.2rem;
+  padding: 0 140px;
+}
+.latest-description{
+  margin: 30px 280px;
+justify-items: center;
+text-align: center;
+}
+
+
+
+.discount{
+ display:flex;
+ justify-content: center;
+ margin: 120px 150px;
+ gap: 28px;
+
+}
+.off{
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+}
+.shop{
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+}
+.img-description{
+ 
+  justify-items: center;
+  position: absolute;
+  justify-content: center;
+      align-items: center;
+  /* top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-250%, -40%); */
+
+}
+.bloom{
+  height: 206px;
+  width: 366px;
+  border-radius: 14px;
+  
+}
+.ana{
+   height: 206px;
+  width: 366px;
+  border-radius: 14px;
+}
+.two-img{
+  display: grid;
+  gap: 25px;
+}
+.zabo{
+  height: 440px;
+  width: 760px;
+  border-radius: 14px;
+}
+ 
+/* email section */
+.bunch{
+   background-image: url("assets/news-letter-bg.png");
+  background-size:cover;
+  height: 700px;
+ justify-items: center;
+ align-content: center;
+}
+.email{
+  height: 50px;
+  width: 640px;
+  border: none;
+  font-size: 1rem;
+  padding-left: 20px;
+}
+.email-btn{
+  display: flex;
+  gap: 0;
+}
+.e-btn{
+  height: 52px;
+}
+ 
+/* fot footer section */
+.footer{
+  margin: 50px 160px;
+  justify-content: space-between;
+  column-gap: 250px;
+}
+.foot-logo{
+  height: 82px;
+  width: 135px;
+}
+.foot-text-col{
+  color: rgba(107, 114, 128, 1);
+}
+.foot-description{
+  font-size: 1.25rem;
+ 
+}
+.icon-name{
+  color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  margin-bottom: 32px;
+  
+}
+.first-btn{
+  display: grid;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.second-btn{  
+  display: grid;
    font-size: 1rem;
-   font-weight: 600;    
+  text-decoration: none;
+  
+}
+.icons{
 
 }
-.price{
-    color: rgba(17, 17, 17, 1);
-    font-weight: 700;
-    font-size: 1.3rem;
-}
-.lily{
-    font-size: 1.3rem;
-    color: rgba(17, 17, 17, 1);
-    font-weight: 500;
-}
-.container-discription{
-   justify-items: center;
-}
 
-/* responsive */
+
+/* responsive for mobile*/
 @media screen and (max-width: 576px) {
-    .banner{
-        flex-direction: column;
-    }
-    
+  .banner, .flower-plants {
+    flex-direction: column;
+  }
+  .all-container{
+     grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  }
+  .flower-content{
+    margin: 0 0;
+  }
+  .trusted, .display-none{
+    display: none;
+   
+  }
+
 }
